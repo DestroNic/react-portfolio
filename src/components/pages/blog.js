@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -117,3 +118,19 @@ class Blog extends Component {
 }
 
 export default Blog;
+=======
+import React from "react";
+import { Link } from "react-router-dom";
+
+export default function() {
+  return (
+    <div>
+      <h2>Blog</h2>
+
+      <div>
+        <Link to="/about-me">Read more about myself</Link>
+      </div>
+    </div>
+  );
+}
+>>>>>>> 8d80debd5ddf51ffdc50d5ee235fdc6c8c87f3d6

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .auth-page-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,3 +15,21 @@
     background-color: $offwhite;
   }
 }
+=======
+.login-component-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+    
+    .left-column {
+        background-size: cover;
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $offwhite;
+    }
+}
+>>>>>>> 8d80debd5ddf51ffdc50d5ee235fdc6c8c87f3d6

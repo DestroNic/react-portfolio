@@ -1,4 +1,5 @@
 @mixin base-btn {
+<<<<<<< HEAD
   cursor: pointer;
   height: 42px;
   font-size: 1em;
@@ -44,3 +45,22 @@
   display: grid;
   grid-gap: 21px;
 }
+=======
+    cursor: pointer;
+    height: 42px;
+    font-size: 1em;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    background-color: $teal;
+    color: white;
+
+    &:active, &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: $dark-teal;
+    }
+}
+>>>>>>> 8d80debd5ddf51ffdc50d5ee235fdc6c8c87f3d6

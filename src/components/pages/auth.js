@@ -21,7 +21,11 @@ export default class Auth extends Component {
 
   render() {
     return (
+<<<<<<< HEAD
       <div className="auth-page-wrapper">
+=======
+      <div className="login-component-wrapper">
+>>>>>>> 8d80debd5ddf51ffdc50d5ee235fdc6c8c87f3d6
         <div
           className="left-column"
           style={{
